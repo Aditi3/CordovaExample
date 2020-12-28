@@ -21,7 +21,7 @@ var app = {
 initialize: function() {
     document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
     document.addEventListener('onCleverTapInboxDidInitialize', this.onCleverTapInboxDidInitialize, false);
-
+    
 },
     
     // deviceready Event Handler
@@ -34,11 +34,8 @@ onDeviceReady: function() {
     CleverTap.setDebugLevel(3);
     CleverTap.registerPush();
     CleverTap.initializeInbox();
-    
     CleverTap.recordEventWithName("foo");
-    
     CleverTap.recordEventWithName("User Logout");
-
     
 },
     
@@ -57,6 +54,7 @@ receivedEvent: function(id) {
 onCleverTapInboxDidInitialize: function() {
     CleverTap.showInbox({"navBarTitle":"My App Inbox","tabs": ["tag1", "tag2"],"navBarColor":"#FF0000"});
 },
+    
 };
 
 app.initialize();
