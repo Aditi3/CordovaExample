@@ -7,14 +7,17 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
-    },
     "clevertap-cordova": {
       "CLEVERTAP_ACCOUNT_ID": "YOUR CLEVERTAP ACCOUNT ID",
       "CLEVERTAP_TOKEN": "YOUR CELVERTAP ACCOUNT TOKEN",
       "CLEVERTAP_REGION": " ",
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-deeplinks": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.example.hello"
     }
   },
   "dependent_plugins": {}

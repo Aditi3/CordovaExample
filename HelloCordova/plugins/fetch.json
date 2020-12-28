@@ -17,5 +17,13 @@
       "CLEVERTAP_ACCOUNT_ID": "YOUR CLEVERTAP ACCOUNT ID",
       "CLEVERTAP_TOKEN": "YOUR CELVERTAP ACCOUNT TOKEN"
     }
+  },
+  "cordova-plugin-deeplinks": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-deeplinks"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }
