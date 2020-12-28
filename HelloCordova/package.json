@@ -13,6 +13,7 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "dependencies": {
+    "clevertap-cordova": "git+https://github.com/CleverTap/clevertap-cordova.git",
     "cordova-ios": "^5.1.1"
   },
   "devDependencies": {
@@ -20,7 +21,12 @@
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {}
+      "cordova-plugin-whitelist": {},
+      "clevertap-cordova": {
+        "CLEVERTAP_ACCOUNT_ID": "YOUR CLEVERTAP ACCOUNT ID",
+        "CLEVERTAP_TOKEN": "YOUR CELVERTAP ACCOUNT TOKEN",
+        "CLEVERTAP_REGION": " "
+      }
     },
     "platforms": [
       "ios"
