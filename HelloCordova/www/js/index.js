@@ -37,5 +37,5 @@ function onDeviceReady() {
 }
 
 function onCleverTapInboxDidInitialize() {
-    CleverTap.showInbox({"navBarTitle":"My App Inbox","tabs": ["tag1", "tag2"],"navBarColor":"#FF0000"});
+    CleverTap.showInbox({"navBarTitle":"My App Inbox","tabs": ["Promotions", "Offers"],"navBarColor":"#FF0000"});
 }
