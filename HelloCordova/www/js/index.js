@@ -32,7 +32,6 @@ function onDeviceReady() {
     CleverTap.registerPush();
     
     CleverTap.recordEventWithName("foo");
-    CleverTap.recordEventWithName("User Logout");
     CleverTap.initializeInbox();
 }
 
